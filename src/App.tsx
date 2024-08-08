@@ -6,10 +6,10 @@ function App() {
   return (
     <Router>
       <RootLayout>
-          <Routes>
-            <Route path="/" element={<h1>HOME</h1>} />
-            <Route path="/one" element={<One/>}/>
-          </Routes>		
+        <Routes>
+          <Route path="/" element={<h1>HOME</h1>} />
+          <Route path="/one" element={<One />} />
+        </Routes>
       </RootLayout>
     </Router>
   )

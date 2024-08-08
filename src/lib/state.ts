@@ -4,7 +4,7 @@ interface BearState {
   bears: number;
   increase: () => void;
   remove: () => void;
-  decrease: () => void; 
+  decrease: () => void;
 }
 
 // Create the Zustand store with TypeScript types

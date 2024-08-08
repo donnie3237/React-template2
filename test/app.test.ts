@@ -4,9 +4,9 @@ describe('App', () => {
   const x = 2
   const y = 2
   it('can plus', () => {
-    expect(x+y).toBe(4)
+    expect(x + y).toBe(4)
   });
   it('can multiply', () => {
-    expect(x*y).toBe(4)
+    expect(x * y).toBe(4)
   });
 });

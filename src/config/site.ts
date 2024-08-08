@@ -2,11 +2,12 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "",
-  description:"",
+  description: "",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
   ],
+
 };
